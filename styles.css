@@ -29,6 +29,7 @@ input {
 
 input[name=operation] {
     text-align: right;
+    height: 20px;
 } 
 
 input[type=textfield] {
@@ -36,15 +37,14 @@ input[type=textfield] {
     width: 90%;
     border-radius: 5px;
     margin-top: 10px;
+    border: 1px solid gray;
 }
-
 
 #display {
     text-align: center;
     margin-bottom: 20px;
     font-size: larger;
-    border: 1px solid black;
-    background-color: beige;
+    background-color: khaki;
 }
 
 input[type=button], input[type=reset] {
@@ -55,19 +55,16 @@ input[type=button], input[type=reset] {
     cursor: pointer;
 }
 
-
 .number {
-    background-color: gray;
-    color: white;
+    background-color: rgb(158, 156, 156);
 }
 
 .operator {
     background-color: orange;
-    color: white;
 }
 
 .calculate {
-    background-color: rgb(17, 163, 17);
+    background-color: rgb(53, 189, 26);
     color: white;
 }
 
