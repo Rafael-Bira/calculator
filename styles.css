@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(1, 0, 10);
+}
+
+h1 {
+    font-family: Audiowide, Arial, sans-serif;
+    color: white;
+}
+
+form {
+    width: 200px;
+    align-self: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid rgb(37, 37, 37);
+    border-radius: 8px;
+    background-color: silver;
+    font-family: "Chakra Petch", 'Trebuchet MS', sans-serif;
+}
+
+input {
+    margin: 5px;
+}
+
+input[name=operation] {
+    text-align: right;
+} 
+
+input[type=textfield] {
+    cursor: default;
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+#display {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: larger;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+input[type=button], input[type=reset] {
+    width: 18%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.number {
+    background-color: gray;
+    color: white;
+}
+
+.operator {
+    background-color: orange;
+    color: white;
+}
+
+.calculate {
+    background-color: rgb(17, 163, 17);
+    color: white;
+}
+
+.others {
+    background-color: white;
+}
