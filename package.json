@@ -1,6 +1,6 @@
 {
   "name": "calculator",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "homepage": "https://rafael-bira.github.io/calculator",
   "private": true,
   "dependencies": {
@@ -10,7 +10,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "selenium-webdriver": "^4.18.1",
+    "web-vitals": "^2.1.4",
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "predeploy": "npm run build",
